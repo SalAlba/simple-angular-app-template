@@ -9,6 +9,7 @@ import { PostesModule } from "./modules/postes/postes.module";
 
 // components ...
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     CoreModule,
     HomeModule, // in anular page ex. no import !!!  https://stackblitz.com/angular/aqqyljyojye
     PostesModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
   ],
   providers: [],
